@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pengguna - BeritaKita</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">BeritaKita</h1>
+            <nav class="nav">
+                <a href="index.html" class="nav-item">Beranda</a>
+                <a href="#" class="nav-item">Teknologi</a>
+                <a href="#" class="nav-item">Olahraga</a>
+                <a href="#" class="nav-item">Gaya Hidup</a>
+                <a href="contact.html" class="nav-item">Kontak</a>
+                <a href="#" class="nav-item search-icon">&#128269;</a>
+                <button id="dark-mode-toggle" class="nav-item">Gelap</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container profile-container">
+            <aside class="profile-sidebar">
+                <div class="profile-card">
+                    <img src="https://via.placeholder.com/150" alt="Foto Profil" class="profile-picture">
+                    <h3 class="profile-name">Nama Pengguna</h3>
+                    <p class="profile-email">email@contoh.com</p>
+                    <nav class="profile-nav">
+                        <a href="#" class="profile-nav-item active">Artikel Tersimpan</a>
+                        <a href="#" class="profile-nav-item">Pengaturan Akun</a>
+                        <a href="#" class="profile-nav-item">Keluar</a>
+                    </nav>
+                </div>
+            </aside>
+            <section class="profile-content">
+                <h2>Artikel Tersimpan</h2>
+                <div class="saved-articles-list">
+                    <div class="list-item saved-article-item">
+                        <a href="article.html"><img src="https://via.placeholder.com/100x100.png?text=Saved+1" alt=""></a>
+                        <div class="item-content">
+                            <h5><a href="article.html">Judul Artikel yang Disimpan #1</a></h5>
+                            <p>Deskripsi singkat tentang artikel yang disimpan...</p>
+                        </div>
+                    </div>
+                    <div class="list-item saved-article-item">
+                        <a href="article.html"><img src="https://via.placeholder.com/100x100.png?text=Saved+2" alt=""></a>
+                        <div class="item-content">
+                            <h5><a href="article.html">Judul Artikel yang Disimpan #2</a></h5>
+                            <p>Deskripsi singkat tentang artikel yang disimpan...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="dark-mode.js"></script>
+</body>
+</html>

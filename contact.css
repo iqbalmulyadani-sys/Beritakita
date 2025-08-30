@@ -1,0 +1,51 @@
+/* contact.css */
+.contact-container {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+@media (min-width: 768px) {
+    .contact-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contact-info,
+    .contact-form-section {
+        flex-basis: 48%;
+    }
+}
+
+.contact-info,
+.contact-form-section {
+    background-color: var(--card-bg-color);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.contact-info h2,
+.contact-form-section h3 {
+    font-size: 2em;
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+.info-details p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.info-details strong {
+    color: var(--secondary-color);
+}
+
+/* Reusing form styles from article.css */
+.contact-form-section .form-group label {
+    font-weight: 600;
+}
+
+.contact-form-section button[type="submit"] {
+    width: 100%;
+}

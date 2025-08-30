@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami - BeritaKita</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">BeritaKita</h1>
+            <nav class="nav">
+                <a href="index.html" class="nav-item">Beranda</a>
+                <a href="#" class="nav-item">Teknologi</a>
+                <a href="#" class="nav-item">Olahraga</a>
+                <a href="#" class="nav-item">Gaya Hidup</a>
+                <a href="contact.html" class="nav-item">Kontak</a>
+                <a href="#" class="nav-item search-icon">&#128269;</a>
+                <button id="dark-mode-toggle" class="nav-item">Gelap</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container contact-container">
+            <section class="contact-info">
+                <h2>Hubungi Kami</h2>
+                <p>Kami sangat menghargai masukan, pertanyaan, atau saran dari Anda. Silakan hubungi kami melalui formulir di bawah ini atau melalui informasi kontak yang tersedia.</p>
+                <div class="info-details">
+                    <p><strong>Email:</strong> kontak@beritakita.com</p>
+                    <p><strong>Telepon:</strong> +62 812-3456-7890</p>
+                    <p><strong>Alamat:</strong> Jl. Contoh No. 123, Jakarta Pusat</p>
+                </div>
+            </section>
+
+            <section class="contact-form-section">
+                <h3>Kirim Pesan</h3>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="contact-name">Nama Lengkap:</label>
+                        <input type="text" id="contact-name" name="contact-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email:</label>
+                        <input type="email" id="contact-email" name="contact-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Pesan Anda:</label>
+                        <textarea id="contact-message" name="contact-message" rows="7" required></textarea>
+                    </div>
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <script src="dark-mode.js"></script>
+</body>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>BeritaKita</h3>
+                    <p>Sumber berita terpercaya untuk mendapatkan informasi terkini dan mendalam dari berbagai kategori.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Ikuti Kami</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BeritaKita. Semua Hak Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+</html>

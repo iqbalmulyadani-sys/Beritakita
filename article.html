@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judul Artikel - BeritaKita</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="article.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">BeritaKita</h1>
+            <nav class="nav">
+                <a href="index.html" class="nav-item">Beranda</a>
+                <a href="#" class="nav-item">Teknologi</a>
+                <a href="#" class="nav-item">Olahraga</a>
+                <a href="#" class="nav-item">Gaya Hidup</a>
+                <a href="contact.html" class="nav-item">Kontak</a>
+                <a href="#" class="nav-item search-icon">&#128269;</a>
+                <button id="dark-mode-toggle" class="nav-item">Gelap</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container article-container">
+            <article class="article-content">
+                <h1 class="article-title">Judul Lengkap dari Artikel Berita Ini</h1>
+                <p class="article-meta">Oleh: Nama Penulis | 29 Agustus 2025</p>
+                <div class="article-social-share">
+                    <span>Bagikan:</span>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">WhatsApp</a>
+                </div>
+                <figure class="article-image">
+                    <img src="https://via.placeholder.com/900x500.png?text=Gambar+Utama+Artikel" alt="Gambar Utama Artikel">
+                    <figcaption>Keterangan foto: Deskripsi singkat dari gambar di atas.</figcaption>
+                </figure>
+                <div class="article-body">
+                    <p>
+                        Paragraf pertama dari isi artikel Anda. Di sini Anda bisa menjelaskan poin-poin utama berita...
+                    </p>
+                    <p>
+                        Paragraf kedua dan seterusnya, berisi detail dan informasi pendukung. Pastikan teks mudah dibaca dengan ukuran font yang cukup besar.
+                    </p>
+                    <p>
+                        Tambahkan sub-judul, kutipan, atau list jika diperlukan untuk membuat artikel lebih menarik.
+                    </p>
+                </div>
+            </article>
+
+            <section class="related-articles">
+                <h2>Baca Selanjutnya</h2>
+                <div class="related-grid">
+                    <div class="related-card">
+                        <a href="article.html"><img src="https://via.placeholder.com/300x200.png?text=Artikel+Terkait+1" alt="Artikel Terkait 1"></a>
+                        <h4><a href="article.html">Judul Artikel Terkait 1</a></h4>
+                    </div>
+                    <div class="related-card">
+                        <a href="article.html"><img src="https://via.placeholder.com/300x200.png?text=Artikel+Terkait+2" alt="Artikel Terkait 2"></a>
+                        <h4><a href="article.html">Judul Artikel Terkait 2</a></h4>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="comment-section">
+                <h2>Komentar</h2>
+                <div class="comment-form-container">
+                    <h3>Tinggalkan Komentar Anda</h3>
+                    <form id="comment-form">
+                        <div class="form-group">
+                            <label for="name">Nama Anda:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Komentar:</label>
+                            <textarea id="comment" name="comment" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">Kirim Komentar</button>
+                    </form>
+                </div>
+
+                <div class="comment-list">
+                    <div class="comment-item">
+                        <div class="comment-header">
+                            <span class="comment-author">Budi Santoso</span>
+                            <span class="comment-date">29 Agustus 2025</span>
+                        </div>
+                        <p class="comment-text">
+                            Artikel yang bagus dan informatif. Saya setuju dengan poin-poin yang disampaikan.
+                        </p>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment-header">
+                            <span class="comment-author">Siti Nurhaliza</span>
+                            <span class="comment-date">29 Agustus 2025</span>
+                        </div>
+                        <p class="comment-text">
+                            Terima kasih atas beritanya! Sangat membantu untuk mendapatkan informasi terkini.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="dark-mode.js"></script>
+</body>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>BeritaKita</h3>
+                    <p>Sumber berita terpercaya untuk mendapatkan informasi terkini dan mendalam dari berbagai kategori.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Ikuti Kami</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BeritaKita. Semua Hak Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+</html>
