@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const latestNewsContainer = document.getElementById('latest-news-container');
 
     // GANTI URL DI BAWAH INI DENGAN URL ASLI PROYEK REPLIT ANDA
-    const apiUrl = 'https://https://replit.com/@iqbalmulyadani/Contoh-bagian-2?s=app/api/articles';
+    const apiUrl = 'https://https://replit.com/'https://45a8ae62-4e46-4085-8112-6a6095f7acfc-00-1o3euib6qief0.sisko.replit.dev';
 
     const renderArticleCard = (article, isFeatured = false) => {
         const title = article.title;
